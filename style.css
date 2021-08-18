@@ -1,0 +1,47 @@
+main {
+  width: 1500px;
+}
+
+img {
+  width: 1500px;
+}
+
+header {
+  font-family: 'Abril Fatface', cursive #222 grey;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+}
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.container {
+  font-family: 'Josefin Sans', sans-serif #222 grey;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 800px;
+}
+
+blockquote::before {
+  content: '”';
+}
+blockquote {
+  font-family: 'Abril Fatface';
+  font-size: 40px;
+  background: grey;
+  color: white;
+  padding: 60px;
+}
